@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "solito-blank",
-    "slug": "solito-blank",
+    "name": "solito-with-custom-font",
+    "slug": "solito-with-custom-font",
     "version": "1.0.0",
-    "scheme": "solito-with-font",
+    "scheme": "solito-with-custom-font",
     "platforms": ["ios", "android"],
     "ios": {
       "bundleIdentifier": "com.solito.with-font"

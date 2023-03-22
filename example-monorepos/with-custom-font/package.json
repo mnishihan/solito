@@ -1,5 +1,5 @@
 {
-  "name": "solito-blank",
+  "name": "solito-with-custom-font",
   "private": true,
   "workspaces": [
     "apps/*",
@@ -13,10 +13,11 @@
     "typescript": "^4.7.4"
   },
   "scripts": {
-    "native": "cd apps/expo && expo start",
+    "native": "cd apps/expo && npx expo start --clear",
     "web": "cd apps/next && yarn next"
   },
   "engines": {
     "node": "^16.0.0"
-  }
+  },
+  "packageManager": "yarn@3.4.1"
 }
